@@ -7,37 +7,9 @@
   "license": "MIT",
   "web": "https://github.com/cheatfate/asynctools",
   "refs": [
-    "refs/heads/master",
+    "error: RPC failed; curl 16 Error in the HTTP2 framing layer",
+    "fatal: expected flush after ref listing",
     ""
   ],
-  "heads": [
-    {
-      "name": "asynctools",
-      "version": "0.1.1",
-      "author": "Eugene Kabanov",
-      "desc": "Various asynchronous tools for Nim",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.19.4",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.19.4"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
