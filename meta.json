@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/cheatfate/asynctools",
   "refs": [
-    "fatal: unable to access 'https://github.com/cheatfate/asynctools/': SSL connection timeout",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "asynctools",
+      "version": "0.1.1",
+      "author": "Eugene Kabanov",
+      "desc": "Various asynchronous tools for Nim",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.4"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
